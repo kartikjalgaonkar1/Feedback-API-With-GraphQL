@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: graphql
-        image: kartikjalgaonkar/graphqlImage:latest
+        image: kartikjalgaonkar/graphql_image:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 8078
