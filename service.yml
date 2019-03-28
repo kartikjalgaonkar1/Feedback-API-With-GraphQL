@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: graphql
+spec:
+  selector:
+    app: graphql
+  type: LoadBalancer
+  ports:
+    - port: 8078 # Default port for image
